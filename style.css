@@ -1,0 +1,25 @@
+:root{
+    --preto-principal: #080808;
+    --azul-corpo: #0a66ff;
+    --preto-azulado: #0f172a;
+    --branco-do-corpo: #FFFFFF;
+}
+
+body{
+    background-color: var(--preto-azulado);
+    color: var(--branco-do-corpo);
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.perfil{
+    background-image: url("img/pro.png");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
